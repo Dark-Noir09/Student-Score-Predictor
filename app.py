@@ -8,7 +8,7 @@ import plotly.express as px
 
 from database import init_database, save_prediction, get_user_predictions
 from auth import init_session_state, login_page, register_page, admin_panel
-from report_generator import generate_pdf_report
+
 
 init_database()
 init_session_state()
